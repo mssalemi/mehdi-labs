@@ -1,0 +1,24 @@
+name: Commerce workflow
+description: A store, checkout, ops or internal-tool workflow that needs fixing
+title: "[commerce] "
+labels: ["commerce"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What's the workflow, where does it break, and what platform is it on?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you've tried
+      description: Tools, scripts, prompts, spreadsheets, nothing. All fine.
+  - type: textarea
+    id: done
+    attributes:
+      label: What "done" looks like
+      description: The smallest version that would actually help.
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+name: Agent idea
+description: Something an AI agent should be doing and isn't
+title: "[agent] "
+labels: ["agent"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What's the task, who does it by hand today, and why does it suck?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you've tried
+      description: Tools, scripts, prompts, spreadsheets, nothing. All fine.
+  - type: textarea
+    id: done
+    attributes:
+      label: What "done" looks like
+      description: The smallest version that would actually help.
+    validations:
+      required: true

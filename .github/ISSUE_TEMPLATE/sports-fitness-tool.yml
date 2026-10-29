@@ -1,0 +1,24 @@
+name: Sports / fitness tool
+description: Training, racing, coaching or gear software you wish existed
+title: "[sports-fitness] "
+labels: ["sports-fitness"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What do you train for, what do you track, and what's missing?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you've tried
+      description: Tools, scripts, prompts, spreadsheets, nothing. All fine.
+  - type: textarea
+    id: done
+    attributes:
+      label: What "done" looks like
+      description: The smallest version that would actually help.
+    validations:
+      required: true
